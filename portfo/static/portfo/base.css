@@ -1,0 +1,37 @@
+
+body{
+font-family: 'Lucida Calligraphy', monospace;
+    background-color: #000000;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+      color: #ffffff;
+    font-family: 'Lucida Console', monospace;
+}
+
+p {
+    font-family: 'Lucida Console', monospace;
+    text-align: left;
+    color: #ffffff;
+}
+
+ul.a{
+    list-style-type: circle;
+    color: #ffffff;
+    font-family: 'Lucida Console', monospace;
+}
+
+ul.b{
+    list-style-type: circle;
+    color: #ffffff;
+    font-family: 'Lucida Console', monospace;
+}
+
+div {
+    text-align: right;
+}

@@ -1,0 +1,27 @@
+{% extends "portfo/base.html" %}
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+</head>
+<body>
+<div>
+    <a href="{% url 'portfo-home' %}">Home</a>
+    <a href="{% url 'portfo-about' %}">About</a>
+    <a href="{% url 'portfo-contact' %}">Contact Us</a>
+</div>
+    <h1>Contact Socials:</h1>
+    <br>
+    <ul class ="a">
+        <li>GitHub: https://github.com/reyeslance</li>
+    <li>Facebook: https://www.facebook.com/lanceeeey/</li>
+    <li>Email: reyeslance1703@gmail.com</li>
+    </ul>
+</body>
+</html>
+
+{% endblock %}

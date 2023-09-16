@@ -1,0 +1,17 @@
+{% extends "portfo/base.html" %}
+{% block content %}
+<div>
+    <a href="{% url 'portfo-home' %}">Home</a>
+    <a href="{% url 'portfo-about' %}">About</a>
+    <a href="{% url 'portfo-contact' %}">Contact Us</a>
+</div>
+    <h1>About Page</h1>
+
+    <p>A second year Computer Engineering Student. </p>
+    <br>
+    <h2>Experiences and Credentials:</h2>
+    <ul class ="b">
+    <li>Managing a small family business</li>
+    <li>Attending Master Classes for semi-academic organizations</li>
+    </ul>
+    {% endblock %}

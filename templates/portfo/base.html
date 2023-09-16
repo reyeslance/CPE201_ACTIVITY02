@@ -1,0 +1,17 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfo/base.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+        <title>Portfolio - {{ title }}</title>
+    {% else %}
+        <title>Portfolio </title>
+    {% endif %}
+</head>
+<body>
+    {% block content %} {% endblock %}
+</body>
+</html>
